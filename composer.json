@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.5",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NovelGenerator\\": "src/"
+        }
+    }
+}
